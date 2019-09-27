@@ -1,0 +1,23 @@
+{
+    "name": "akalod/masterpass",
+    "description": "Masterpass PHP library",
+    "type": "library",
+    "license": "Apache",
+     "autoload": {
+      "psr-4": {
+        "akalod\\": "/src"
+      }
+    },
+    "require": {  
+        "php": ">=5.5.9",
+        "nesbot/carbon": "^2.24",
+        "guzzlehttp/guzzle": "^6.3",
+        "phpseclib/phpseclib": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Seyhan Yıldız",
+            "email": "syhnyldz@gmail.com"
+        }
+    ]
+}
